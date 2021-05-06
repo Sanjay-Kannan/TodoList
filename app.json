@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Todo-List",
+    "slug": "todoList",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/todo.png",
+    "splash": {
+      "image": "./assets/todo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.s_k.todoList"
+    },
+    "web": {
+      "favicon": "./assets/todo.png"
+    }
+  }
+}
